@@ -1,0 +1,14 @@
+Website help link:
+https://awstip.com/express-server-on-netlify-for-free-step-by-step-guide-e5fbdb47d891
+
+Netlify link:
+https://app.netlify.com/start
+
+Github link:
+https://github.com/dado-offbrand/BenPortfolio
+
+NPM commands:
+"npm run build"
+"npm run start"
+
+Website still needs pushed to the actual GitHub and the netlify app needs deployed. Also, how does adding extra pages end up working?
