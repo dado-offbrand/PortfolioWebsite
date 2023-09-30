@@ -9,7 +9,7 @@
     "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ben",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
