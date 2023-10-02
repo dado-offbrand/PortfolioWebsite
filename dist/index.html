@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Website Main -->
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/ProfileIcon.png">
+    <script src="scripts/interactableBox.js"></script>
+
+    <!-- Website Misc -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/navbarEase.js"></script>
+
+    <!-- Bootstrap JS/CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body onload="configNav()">
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+            <li><a href="#" class="round-link" id="no-hov">
+                <img class="pfp" src="images/DadoLarge.jpg" alt="profile picture">
+            </a></li>
+
+            <li><a href="#" class="nav-active" id="n1">n1</a></li>
+            <li><a href="pages/portfolio.html" id="n2">n2</a></li>
+            <li><a href="pages/projects.html" id="n3">n3</a></li>
+            <li><a href="pages/playground.html" id="n4">n4</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- First Row -->
+        <div class="row">
+            <div class="col-sm-4"></div>
+
+            <div class="col-sm-4">
+                <h1><b>Hey, I'm Ben!</b></h1>
+            </div>
+            
+            <div class="col-sm-4"></div>
+        </div>
+        <br><br>
+
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="msg-box">
+                    <h3>About Me</h3>
+
+                    <p>
+                        I am a developer who has varying experience in several programming languages,
+                        and I like to take on small challenges and projects. I am mainly into robotics
+                        and software development.
+                    </p>
+                    <br>
+                    <p>
+                        So far, I have basic/in-depth knowledge on the following programming languages:
+                    </p>
+
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Lua</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <br><br>
+            </div>
+        </div>
+
+        <!-- Third Row -->
+        <div class="row">
+            <!-- Instagram -->
+            <div class="col-sm-4">
+                <div class="interactable-box" onmouseover="move_children(this);" onmouseleave="unmove_children(this);">
+                    <img src="images/InstaLogo.png" class="media-image">
+                    <h3 class="media-title">Instagram</h3>
+                    <br>
+
+                    <p class="media-content">
+                        My Instagram is where I upload videos
+                        of me playing my guitar, although it is
+                        temporarily privated. Once I am no longer
+                        privated, you can find me at 
+                        <span class="false-link">@ben._ward</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Spotify -->
+            <div class="col-sm-4">
+                <div class="interactable-box" onmouseover="move_children(this);" onmouseleave="unmove_children(this);">
+                    <img src="images/SpotifyLogo.png" class="media-image">
+                    <h3 class="media-title">Spotify</h3>
+                    <br>
+
+                    <p class="media-content" id="spotify-space">
+                        <a href="https://open.spotify.com/user/s03blry4c8zdhe3leoovh4fi7" target="_blank">My Spotify</a> 
+                        doesn't have much to it, but I used to listen to a lot of alternate rock/indie songs, but I've
+                        been leaning towards rap songs now.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Github -->
+            <div class="col-sm-4">
+                <div class="interactable-box" onmouseover="move_children(this);" onmouseleave="unmove_children(this);">
+                    <img src="images/GithubLogo.png" class="media-image">
+                    <h3 class="media-title">Github</h3>
+                    <br>
+
+                    <p class="media-content" id="github-space">
+                        Although I make very few of my projects open sourced on 
+                        <a href="https://github.com/dado-offbrand?tab=repositories" target="_blank">my Github</a>, 
+                        there are still a number of projects there including this website. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+</body>
+</html>

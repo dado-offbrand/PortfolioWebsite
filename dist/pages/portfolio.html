@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Website Main -->
+    <title>Project List</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" href="../images/ProfileIcon.png">
+
+    <!-- Website Misc -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../scripts/navbarEase.js"></script>
+    <script src="../scripts/jsonToHTML.js"></script>
+
+    <!-- Bootstrap JS/CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body onload="configNav(); loadJsonPageContent('portfolio.json');">
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+            <li><a href="#" class="round-link" id="no-hov">
+                <img class="pfp" src="../images/DadoLarge.jpg" alt="profile picture">
+            </a></li>
+
+            <li><a href="../index.html" id="n1">n1</a></li>
+            <li><a href="#" class="nav-active" id="n2">n2</a></li>
+            <li><a href="projects.html" id="n3">n3</a></li>
+            <li><a href="playground.html" id="n4">n4</a></li>
+        </ul>
+    </nav>
+
+    <!-- Container Start (jsonContentParent) -->
+    <div class="container" id="jsonContentParent">
+
+    <!-- Row Start -->
+    <div class="row">
+        <!-- Disclaimer Start -->
+        <div class="col-sm-12">
+            <div class="msg-box">
+                <p><b>
+                    There will be more projects added later down the line as they are completed.
+                </b></p>
+            </div>
+        </div>
+        <!-- Disclaimer End -->
+    <!-- Row End -->
+    </div>
+
+    <!-- Container End (jsonContentParent) -->
+    </div>
+</body>
+</html>

@@ -1,16 +1,16 @@
 const express = require("express");
-const serverless = require("serverless-http");
+const path = require('path');
 
 const app = express();
-const router = express.Router();
+const distPath = path.join(process.cwd(), 'dist');
+app.use(express.static(distPath));
 
-router.get("/", (req, res) => {
-  res.json({
-    hello: "hi!"
-  });
+app.get("/", (req, res) => {
+  const home = path.join(distPath, 'index.html');
+  res.sendFile(home);
 });
 
-app.use(`/.netlify/functions/api`, router);
-
-module.exports = app;
-module.exports.handler = serverless(app);
+const PORT = 9000
+app.listen(PORT, () => {
+  console.log('Server is running on port: ' + PORT);
+});
