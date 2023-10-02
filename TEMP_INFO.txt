@@ -1,0 +1,34 @@
+Website help link:
+https://awstip.com/express-server-on-netlify-for-free-step-by-step-guide-e5fbdb47d891
+
+Netlify link:
+https://app.netlify.com/start
+
+Github link:
+https://github.com/dado-offbrand/BenPortfolio
+
+NPM commands:
+"npm run build"
+"npm run start"
+export NODE_OPTIONS=--openssl-legacy-provider
+
+NPM debug host url:
+http://localhost:9000/.netlify/functions/api
+
+Website still needs pushed to the actual GitHub and the netlify app needs deployed. Also, how does adding extra pages end up working?
+
+"start": "./node_modules/.bin/netlify-lambda serve src",
+"build": "./node_modules/.bin/netlify-lambda build src"
+
+// from package.json dependencies:
+//  "netlify-lambda": "^2.0.16",
+
+// from package.json scripts:
+// "start": "./node_modules/.bin/netlify-lambda serve src",
+
+// test URL V1 and V2
+// http://localhost:9000/.netlify/functions/api
+// http://localhost:9000
+
+// terser crypto error byapss command
+// export NODE_OPTIONS=--openssl-legacy-provider

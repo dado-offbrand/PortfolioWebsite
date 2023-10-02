@@ -4,7 +4,7 @@
   "description": "Portfolio website",
   "main": "index.html",
   "scripts": {
-    "start": "node src/api.js",
+    "start": "./node_modules/.bin/netlify-lambda serve src",
     "build": "./node_modules/.bin/netlify-lambda build src",
     "setup": "node src/setup.js"
   },
