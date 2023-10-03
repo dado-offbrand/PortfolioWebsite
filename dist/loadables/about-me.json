@@ -1,26 +1,26 @@
 [
     {
-        "Title": "Project One",
-        "Content": "This is test content. This is test content. This is test content. This is test content."    
+        "Title": "CAD Design",
+        "Content": "A lot of my projects require 3D printing, which requires CAD design. I have a little experience in Fusion360 but I switched to Onshape recently."    
     },
     {
-        "Title": "Project Two",
-        "Content": "This is test content. This is test content. This is test content. This is test content."        
+        "Title": "3D Printing",
+        "Content": "I'm sort of a novice when it comes to the settings you can mess with, but I do have experience maintaining and repairing 3D printers."        
     },
     {
-        "Title": "Project Three",
-        "Content": "This is test content. This is test content. This is test content. This is test content."       
+        "Title": "Programming",
+        "Content": "A more obvious thing about me, I like to program and I have been programming since I was 10, starting with blocks of course."       
      },
     {
-        "Title": "Project Four",
-        "Content": "This is test content. This is test content. This is test content. This is test content."        
+        "Title": "Robotics",
+        "Content": "By robotics I mean using microcontrollers to control other devices, but I have made actual robots too."        
     },
     {
-        "Title": "Project Five",
-        "Content": "This is test content. This is test content. This is test content. This is test content."        
+        "Title": "Soldering",
+        "Content": "I have gotten pretty good at soldering from my robotics tinkering, and I can now make pretty neat joints."        
     },
     {
-        "Title": "Project Six",
-        "Content": "This is test content. This is test content. This is test content. This is test content."        
+        "Title": "Project Tracking",
+        "Content": "With all the projects I have made, I usually set up a Trello board to track my progress, and I have been able to make them highly organized over time."        
     }
 ]
