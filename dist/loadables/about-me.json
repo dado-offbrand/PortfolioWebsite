@@ -9,35 +9,39 @@
     },
     {
         "Title": "Robotics",
-        "Content": "By robotics I mean using microcontrollers to control other devices, but I have made actual robots too."        
+        "Content": "I have experience with microcontrollers on the smaller side, like the ESP32 or Arduino Nano, which I have used for smaller robotics projects."        
     },
     {
         "Title": "Soldering",
-        "Content": "I have gotten pretty good at soldering from my robotics tinkering, and I can now make pretty neat joints."        
+        "Content": "I am experienced with soldering from my various projects, and I am able to produce mostly clean joints."        
     },
     {
-        "Title": "Project Tracking",
-        "Content": "With all the projects I have made, I usually set up a Trello board to track my progress, and I have been able to make them highly organized over time."        
+        "Title": "Project Organization & Tracking",
+        "Content": "With all the projects I have made, I have learned how to keep track of my projects with applications like Trello, Miro, and Figma."        
+    },
+    {
+        "Title": "Troubleshooting",
+        "Content": "Of course with anything, errors or problems will occur, and with that I've learned multiple troubleshooting and debugging strategies."
     },
     {
         "Title": "Programming in Lua",
-        "Content": "Lua was one of my very first languages, and it was simple enough to teach me most main components of programming."
+        "Content": "Lua was one of my very first languages, which I learned from Roblox Studio when I was young. It taught me the essential logic needed for programming."
     },
     {
         "Title": "Programming in C#",
-        "Content": "C# is one of my more recently learned languages, but I have used it for over 4 years now modding/making applications and modding games."
+        "Content": "C# is one of my most known langauges as it is quite versitile, I have used it for making applications, modding games, and creating games."
     },
     {
         "Title": "Programming in C++",
-        "Content": "The dreaded complex programming language, which I unfortunutely have to use for microcontrollers. I don't mind it now though, it's gotten easier."
+        "Content": "I have only used C++ for programming microcontrollers, so I've never had to mess with the STD namespace, instead I use a dumbed down veesion with Arduino."
     },
     {
         "Title": "Programming in Python",
-        "Content": "I used Python mainly for data, from parsing through text files to analyzing images to detect movement."
+        "Content": "I have used Python for parsing through text files to pull information out and analyzing images to detect movement."
     },
     {
         "Title": "Programming in Java",
-        "Content": "Java is similar to C# in a lot of ways except for the fact that C# with .NET has a nicer framework to it."
+        "Content": "I am currently in a CCP class which covers Java, but I consider myself experienced as it is similar to C# and I have distinguished the differences."
     },
     {
         "Title": "Programming in HTML/CSS",
