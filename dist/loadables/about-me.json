@@ -8,10 +8,6 @@
         "Content": "I'm sort of a novice when it comes to the settings you can mess with, but I do have experience maintaining and repairing 3D printers."        
     },
     {
-        "Title": "Programming",
-        "Content": "A more obvious thing about me, I like to program and I have been programming since I was 10, starting with blocks of course."       
-     },
-    {
         "Title": "Robotics",
         "Content": "By robotics I mean using microcontrollers to control other devices, but I have made actual robots too."        
     },
@@ -22,5 +18,29 @@
     {
         "Title": "Project Tracking",
         "Content": "With all the projects I have made, I usually set up a Trello board to track my progress, and I have been able to make them highly organized over time."        
+    },
+    {
+        "Title": "Programming in Lua",
+        "Content": "Lua was one of my very first languages, and it was simple enough to teach me most main components of programming."
+    },
+    {
+        "Title": "Programming in C#",
+        "Content": "C# is one of my more recently learned languages, but I have used it for over 4 years now modding/making applications and modding games."
+    },
+    {
+        "Title": "Programming in C++",
+        "Content": "The dreaded complex programming language, which I unfortunutely have to use for microcontrollers. I don't mind it now though, it's gotten easier."
+    },
+    {
+        "Title": "Programming in Python",
+        "Content": "I used Python mainly for data, from parsing through text files to analyzing images to detect movement."
+    },
+    {
+        "Title": "Programming in Java",
+        "Content": "Java is similar to C# in a lot of ways except for the fact that C# with .NET has a nicer framework to it."
+    },
+    {
+        "Title": "Programming in HTML/CSS",
+        "Content": "I took a web-dev class in my Sophomore year of highschool which is where I started making websites like this."
     }
 ]
