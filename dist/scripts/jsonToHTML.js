@@ -1,10 +1,3 @@
-/*
- * Script objective:
- * Make a function that will load a json and take information from it
- * in order to turn it into an HTML contentBox or whatever I called it
- * NAME OF JSON PARENT SHOULD ALWAYS BE "jsonContentParent"
-*/
-
 // Loads all content from a json file onto a page,
 // jsonName is the name of the json
 // parentID is the id of the parent object to locate
