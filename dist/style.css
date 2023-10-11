@@ -91,15 +91,23 @@
 .port-box-content {
     font-family:"Radio Canada R";
     font-size:14px;
-
     display:flex;
 }
 
-#top, #left {
+#top {
     text-align:left;
+    flex-direction:row;
+    justify-content:center;
 }
 
-#left, #right {
+#left {
+    float:left;
+    text-align:left;
+    flex-direction:column;
+    padding-right:6px
+}
+
+#right {
     flex-direction:column;
     padding-right:4px;
 }
@@ -109,14 +117,6 @@
     height:256px;
 
     border-bottom-right-radius:6.5px;
-}
-
-#left {
-    padding-right:6px !important;
-}
-
-#top {
-    flex-direction:row;
 }
 
 /* Interactable Box Content */
